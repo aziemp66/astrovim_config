@@ -9,4 +9,11 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  -- { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
+  {
+    "folke/tokyonight.nvim",
+    lazy = false,
+    priority = 1000,
+    opts = {},
+  },
 }
